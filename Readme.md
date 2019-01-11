@@ -1,4 +1,4 @@
-## Summary
+## Summary
 
 Works similar to `setInterval(cb, 1000)`, but doesn't diverge. `setInterval` diverges quite quickly loosing seconds.
 
