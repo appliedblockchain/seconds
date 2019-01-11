@@ -1,6 +1,6 @@
 {
   "name": "@appliedblockchain/seconds",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Non-diverging seconds interval.",
   "main": "index.js",
   "scripts": {
