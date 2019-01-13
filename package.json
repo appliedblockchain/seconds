@@ -2,9 +2,9 @@
   "name": "@appliedblockchain/seconds",
   "version": "0.0.2",
   "description": "Non-diverging seconds interval.",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
-    "test": "npx flow check"
+    "test": "npx flow check && npx jest"
   },
   "keywords": [],
   "author": "",

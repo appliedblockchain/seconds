@@ -1,9 +1,13 @@
 // @flow
 
-const { now } = Date
 const { min, max, floor } = Math
 
-function start(cb /*: (t: number, i: number) => any */) {
+function internalStart(
+  { now } /*: {|
+    now: () => number
+  |} */,
+  cb /*: (t: number, i: number) => any */
+) {
 
   let id
 
@@ -22,4 +26,4 @@ function start(cb /*: (t: number, i: number) => any */) {
   return stop
 }
 
-module.exports = start
+module.exports = internalStart
