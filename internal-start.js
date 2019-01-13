@@ -19,7 +19,10 @@ function internalStart(
     cb(f, i)
   }
 
-  tick(0)
+  const t = now()
+  const f = floor(t / 1000) * 1000
+  const d = max(0, min(1000, 1000 - (t - f)))
+  id = setTimeout(() => tick(0), d)
 
   const stop = () => clearTimeout(id)
 
