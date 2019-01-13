@@ -4,9 +4,15 @@
   "description": "Non-diverging seconds interval.",
   "main": "start.js",
   "scripts": {
-    "test": "npx flow check && npx jest"
+    "test": "npx eslint . && npx flow check && npx jest"
   },
   "keywords": [],
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "eslintConfig": {
+    "extends": "@appliedblockchain"
+  },
+  "eslintIgnore": [
+    "flow-typed"
+  ]
 }
