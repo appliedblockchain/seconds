@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "eslintConfig": {
     "extends": "@appliedblockchain"
   },
